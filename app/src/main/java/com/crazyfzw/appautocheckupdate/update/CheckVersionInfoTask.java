@@ -77,7 +77,11 @@ public class CheckVersionInfoTask extends AsyncTask<Void, Void, String> {
 
     /**
      * 从服务器取得版本信息
-     *json {"url":"http://192.168.205.33:8080/Hello/app_v3.0.1_Other_20150116.apk","versionCode":2,"updateMessage":"版本更新信息"}
+     * {
+       "url":"http://crazyfzw.github.io/demo/auto-update-version/new-version-v2.0.apk",
+        "versionCode":2,
+       "updateMessage":"[1]新增视频弹幕功能<br/>[2]优化离线缓存功能<br/>[3]增强了稳定性"
+       }
      * @return
      */
     public String getVersionInfo(String urlStr){

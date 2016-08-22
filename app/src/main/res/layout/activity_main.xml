@@ -13,7 +13,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="当前版本号为2，版本名字为2.0" />
+        android:text="当前版本号为1，版本名字为1.0" />
 
     <Button
         android:id="@+id/button"
