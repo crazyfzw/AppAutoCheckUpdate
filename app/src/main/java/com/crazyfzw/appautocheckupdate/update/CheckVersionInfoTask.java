@@ -28,7 +28,7 @@ import java.net.URL;
 /**
  * Created by Crazyfzw on 2016/8/21.
  * CheckVersionInfoTask.java
- * 从服务器取得版本信息，对比本地apk对比版本好，判断是否有更新，然后用Dialog让用户选择
+ * 从服务器取得版本信息，与本地apk对比版本号，判断是否有更新，然后用Dialog让用户选择是否更新
  * 若用户选择更新，则调用服务去完成apk文件的下载
  */
 public class CheckVersionInfoTask extends AsyncTask<Void, Void, String> {

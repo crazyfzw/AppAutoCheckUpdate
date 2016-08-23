@@ -20,6 +20,7 @@ import java.net.URL;
 
 /**
  * Created by Crazyfzw on 2016/8/21.
+ * 创建服务完成apk文件的下载，下载完成后调用系统的安装程序完成安装
  */
 public class DownloadApkService extends IntentService{
 
